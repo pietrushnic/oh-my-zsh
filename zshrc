@@ -18,6 +18,7 @@ export LESS_TERMCAP_so=$(tput setaf 82)
 export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
 export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
+
 export LESS="-X"
 export EDITOR=vim
 export PATH=${HOME}/storage/wdc/py-venv/bin:${HOME}/bin:${PATH}:${HOME}/src/go/bin
@@ -60,7 +61,7 @@ ZSH_TMUX_FIXTERM="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian tmux tmuxinator taskwarrior)
+plugins=(git debian tmux tmuxinator)
 
 source $ZSH/oh-my-zsh.sh
 
