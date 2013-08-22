@@ -18,6 +18,7 @@ export LESS_TERMCAP_so=$(tput setaf 82)
 export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
 export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
+export EDITOR=vim
 
 export LESS="-X"
 export EDITOR=vim
