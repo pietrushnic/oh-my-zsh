@@ -19,6 +19,8 @@ export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
 export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
 export EDITOR=vim
+export PATH=${PATH}:${HOME}/bin
+
 
 export LESS="-X"
 export EDITOR=vim
