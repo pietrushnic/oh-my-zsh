@@ -19,7 +19,7 @@ export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
 export EDITOR=vim
 export PATH=${PATH}:${HOME}/bin
-
+export CUCUMBER_COLORS=comment=cyan
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
