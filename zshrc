@@ -21,6 +21,7 @@ export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
 export EDITOR=vim
 export PATH=${PATH}:${HOME}/bin
 export CUCUMBER_COLORS=comment=cyan
+ulimit -c unlimited
 
 export LESS="-X"
 export EDITOR=vim
