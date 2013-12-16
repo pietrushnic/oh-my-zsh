@@ -8,8 +8,19 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="geoffgarside"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshcfg="vim ~/.zshrc"
+alias ohmyzsh="cd $HOME/src/oh-my-zsh"
+alias taskwarrior="cd $HOME/src/taskwarrior"
+alias .newsbeuter="cd $HOME/src/newsbeuter"
+alias .dotfile="cd $HOME/src/dotfiles"
+alias bootstrap="cd $HOME/src/bootstrap"
+alias .eartchquake="cd $HOME/src/earthquake-conf"
+alias .mutt="cd $HOME/src/mutt-conf"
+alias .rem="cd $HOME/src/rem"
+alias .spf13="cd $HOME/src/spf13-vim"
+alias .mux="cd $HOME/src/tmuxinator-conf"
+alias .weechat="cd $HOME/src/weechat"
+alias offlineimap="$HOME/.mutt/offlineimap"
 export TERM=screen-256color
 export LESS_TERMCAP_md=$(tput setaf 7)
 export LESS_TERMCAP_me=$(tput sgr0)
