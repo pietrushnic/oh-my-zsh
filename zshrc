@@ -22,7 +22,6 @@ export EDITOR=vim
 export PATH=${PATH}:${HOME}/bin
 export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
-ulimit -c unlimited
 
 export LESS="-X"
 export EDITOR=vim
