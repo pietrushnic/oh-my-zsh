@@ -22,6 +22,7 @@ export EDITOR=vim
 export PATH=${PATH}:${HOME}/bin
 export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
+export NNTPSERVER='news.gmane.org'
 
 export LESS="-X"
 export EDITOR=vim
