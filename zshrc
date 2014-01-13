@@ -32,7 +32,6 @@ export EDITOR=vim
 export PATH=${PATH}:${HOME}/bin
 export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
-ulimit -c unlimited
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
