@@ -71,8 +71,3 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-if [[ -n "$SSH_CONNECTION" ]]; then
-    eval $(/usr/bin/dbus-launch --sh-syntax)
-    eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh)
-fi
