@@ -21,6 +21,7 @@ alias .spf13="cd $HOME/src/spf13-vim"
 alias .mux="cd $HOME/src/tmuxinator-conf"
 alias .weechat="cd $HOME/src/weechat"
 alias offlineimap="$HOME/.mutt/offlineimap"
+alias home-server='ssh pietrushnic@109.241.87.153'
 export TERM=screen-256color
 export LESS_TERMCAP_md=$(tput setaf 7)
 export LESS_TERMCAP_me=$(tput sgr0)
