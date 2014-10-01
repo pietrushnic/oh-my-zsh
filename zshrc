@@ -65,16 +65,10 @@ ZSH_TMUX_FIXTERM="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian tmux tmuxinator taskwarrior)
+plugins=(git debian tmux tmuxinator taskwarrior gpg-agent)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-if [[ -n "$SSH_CONNECTION" ]]; then
-    eval $(/usr/bin/dbus-launch --sh-syntax)
-    #eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh)
-    eval $(/usr/bin/gnome-keyring-daemon &)
-fi
