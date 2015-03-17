@@ -9,17 +9,6 @@ ZSH_THEME="geoffgarside"
 
 # Example aliases
 alias zshcfg="vim ~/.zshrc"
-alias ohmyzsh="cd $HOME/src/oh-my-zsh"
-alias taskwarrior="cd $HOME/src/taskwarrior"
-alias .newsbeuter="cd $HOME/src/newsbeuter-conf"
-alias .dotfile="cd $HOME/src/dotfiles"
-alias bootstrap="cd $HOME/src/bootstrap"
-alias .eartchquake="cd $HOME/src/earthquake-conf"
-alias .mutt="cd $HOME/src/mutt-conf"
-alias .rem="cd $HOME/src/rem"
-alias .spf13="cd $HOME/src/spf13-vim"
-alias .mux="cd $HOME/src/tmuxinator-conf"
-alias .weechat="cd $HOME/src/weechat"
 alias offlineimap="$HOME/.mutt/offlineimap"
 alias home-server='ssh pietrushnic@109.241.87.153'
 export TERM=screen-256color
