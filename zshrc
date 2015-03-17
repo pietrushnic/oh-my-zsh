@@ -20,13 +20,6 @@ export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
 export LESS="-X"
 export EDITOR=vim
-export PATH=${PATH}:${HOME}/bin
-export CUCUMBER_COLORS=comment=cyan
-export PYTHONSTARTUP=~/.pythonrc
-export NNTPSERVER='news.gmane.org'
-
-export LESS="-X"
-export EDITOR=vim
 export PATH=${HOME}/storage/wdc/py-venv/bin:${HOME}/bin:${PATH}:${HOME}/src/go/bin
 export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
