@@ -25,6 +25,9 @@ export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
 export NNTPSERVER='news.gmane.org'
 
+# ccache
+export PATH="/usr/lib/ccache:$PATH"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
