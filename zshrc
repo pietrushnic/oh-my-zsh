@@ -25,6 +25,7 @@ export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
 export NNTPSERVER='news.gmane.org'
 export GOPATH=${HOME}/src/go
+export MC_SKIN=$HOME/.mc/solarized.ini
 
 # ccache
 export PATH="/usr/lib/ccache:$PATH"
