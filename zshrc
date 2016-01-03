@@ -65,3 +65,8 @@ plugins=(git debian tmux tmuxinator taskwarrior)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# dh_make setup
+DEBEMAIL="piotr.krol@3mdeb.com"
+DEBFULLNAME="Piotr Król"
+export DEBEMAIL DEBFULLNAME
