@@ -11,6 +11,7 @@ ZSH_THEME="geoffgarside"
 alias zshcfg="vim ~/.zshrc"
 alias offlineimap="$HOME/.mutt/offlineimap"
 alias home-server='ssh pietrushnic@109.241.87.153'
+export CDPATH="$HOME/storage/wdc/projects/2016"
 export TERM=screen-256color
 export LESS_TERMCAP_md=$(tput setaf 7)
 export LESS_TERMCAP_me=$(tput sgr0)
