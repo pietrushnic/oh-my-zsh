@@ -71,3 +71,5 @@ source $ZSH/oh-my-zsh.sh
 DEBEMAIL="piotr.krol@3mdeb.com"
 DEBFULLNAME="Piotr Król"
 export DEBEMAIL DEBFULLNAME
+source $HOME/storage/wdc/py-venv/bin/aws_zsh_completer.sh
+export BROWSER=chromium
