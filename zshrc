@@ -9,9 +9,7 @@ ZSH_THEME="geoffgarside"
 
 # Example aliases
 alias zshcfg="vim ~/.zshrc"
-alias offlineimap="$HOME/.mutt/offlineimap"
-alias home-server='ssh pietrushnic@109.241.87.153'
-export CDPATH="$HOME/storage/wdc/projects/2016"
+export CDPATH="$HOME/projects/2017"
 export TERM=screen-256color
 export LESS_TERMCAP_md=$(tput setaf 7)
 export LESS_TERMCAP_me=$(tput sgr0)
@@ -21,11 +19,9 @@ export LESS_TERMCAP_us=$(tput setaf 45)
 export LESS_TERMCAP_ue=$(tput rmul; tput sgr0)
 export LESS="-X"
 export EDITOR=vim
-export PATH=${HOME}/storage/wdc/py-venv/bin:${HOME}/bin:${PATH}:${HOME}/src/go/bin
+export PATH=${HOME}/bin:${PATH}
 export CUCUMBER_COLORS=comment=cyan
 export PYTHONSTARTUP=~/.pythonrc
-export NNTPSERVER='news.gmane.org'
-export GOPATH=${HOME}/src/go
 export MC_SKIN=$HOME/.mc/solarized.ini
 
 # ccache
@@ -71,5 +67,3 @@ source $ZSH/oh-my-zsh.sh
 DEBEMAIL="piotr.krol@3mdeb.com"
 DEBFULLNAME="Piotr Król"
 export DEBEMAIL DEBFULLNAME
-source $HOME/storage/wdc/py-venv/bin/aws_zsh_completer.sh
-export BROWSER=chromium
