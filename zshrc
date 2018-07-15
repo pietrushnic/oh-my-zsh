@@ -67,3 +67,10 @@ source $ZSH/oh-my-zsh.sh
 DEBEMAIL="piotr.krol@3mdeb.com"
 DEBFULLNAME="Piotr Król"
 export DEBEMAIL DEBFULLNAME
+
+SSH_VAULT_VM="vault"
+if [ "$SSH_VAULT_VM" != "" ]; then
+       export SSH_AUTH_SOCK=/home/user/.SSH_AGENT_$SSH_VAULT_VM
+       rm -rf "$SSH_AUTH_SOCK"
+       sudo -u user /bin/sh -c "umask 177 && ncat -k -l -U '$SSH_AUTH_SOCK' -c 'qrexec-client-vm $SSH_VAULT_VM qubes.SshAgent' &"
+fi
