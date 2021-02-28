@@ -74,3 +74,6 @@ if [ "$SSH_VAULT_VM" != "" ]; then
        rm -rf "$SSH_AUTH_SOCK"
        sudo -u user /bin/sh -c "umask 177 && ncat -k -l -U '$SSH_AUTH_SOCK' -c 'qrexec-client-vm $SSH_VAULT_VM qubes.SshAgent' &"
 fi
+
+# Qubes OS
+export QUBES_GPG_DOMAIN=vault
